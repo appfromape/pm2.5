@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 
 
 # create and connect database to store pm2.5 data.
-conn = sqlite3.connect("DataBasePM25.sqlite") # 建立資料庫連線
-cursor = conn.cursor() # 建立 cursor 物件
+conn = sqlite3.connect("DataBasePM25.sqlite")
+cursor = conn.cursor()
 
 
 # create a data table, name is "TablePM25" inside has 3 items : "no", "SiteName", "PM25".
